@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đọc trộm truyện</title>
+    <link rel="stylesheet" href="components/style.css">
+</head>
+<body>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Tìm kiếm...">
+        <button id="search-button">Tìm kiếm</button>
+    </div>
+
+    <div id="title">
+        <p id="name_truyen">DOC - abc</p>
+    </div>
+
+    <div id="controls">
+        <button id="prev-chap">Chap trước</button>
+        <select id="chapter-select">
+            <option value="chap1">Chap 1</option>
+            <option value="chap2">Chap 2</option>
+            <option value="chap3">Chap 3</option>
+        </select>
+        <button id="next-chap">Chap sau</button>
+    </div>
+
+    <div id="content-container">
+        <div id="scroll-view">
+            <!-- Nội dung sẽ được thêm vào đây -->
+        </div>
+    </div>
+
+    <script src="components/index.js"></script>
+</body>
+</html>
